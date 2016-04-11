@@ -26,7 +26,7 @@ class GuideView extends Component {
     return (
       <div className="page page-guide">
         <div className="sidebar">
-          <h2>使用指南</h2>
+          <h2>教程</h2>
           <ul className="menu">
             <li>
               <a href="/guide#installation" className={page === 'installation' ? 'active' : ''}>安装</a>
