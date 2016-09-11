@@ -13,10 +13,10 @@ const Installation = () => (
     }
     </Highlight>
     <h4>UMD</h4>
-    <p>同样支持 UMD 的构建，可以通过 <a href="https://npmcdn.com/" target="_blank">npmcdn</a> 引入：</p>
+    <p>同样支持 UMD 的构建，可以通过 <a href="https://unpkg.com/" target="_blank">unpkg</a> 引入：</p>
     <Highlight className="html">
     {
-`  <script src="https://npmcdn.com/recharts/umd/Recharts.min.js"></script>`
+`  <script src="https://unpkg.com/recharts/umd/Recharts.min.js"></script>`
     }
     </Highlight>
     <p>你可以通过 <code>window.Recharts</code> 来调用</p>
